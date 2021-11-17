@@ -1,0 +1,35 @@
+.sidebar {
+  background-image: url("/images/cash-macanaya-zgMZo1Bkzg0-unsplash.jpg");
+  background-position: center;
+}
+
+.logo-title {
+  background: rgba(225, 225, 225, 0.8);
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.sidebar .logo-title .title a {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.sidebar .social-links a {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.sidebar .social-links i {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.title img {
+  display: none;
+}
+
+/* Overwrite the code that turns sidebar content to detached block on very large screens. */
+@media(min-width:1921px) {
+  .sidebar {
+    padding-left: 0;
+    padding-right: 0;
+    width: var(--sidebar-width);
+  }
+}
