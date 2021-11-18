@@ -33,3 +33,7 @@
     width: var(--sidebar-width);
   }
 }
+
+.sidebar {
+  border-right: unset;
+}
