@@ -1,0 +1,40 @@
+[category]
+other = "kategooria"
+
+[tag]
+other = "tag"
+
+[reading_time]
+one = "Ühe minuti lugemine"
+other = "{{ .Count }} minuti lugemine"
+
+[old_content_warning]
+one = "Hoiatus: See postitus on üle {{ .Count }} päeva vana ja ei pruugi enam ajakohane olla."
+other = "Hoiatus: See postitus on üle {{ .Count }} päeva vana ja ei pruugi enam ajakohane olla."
+
+[page_not_found]
+other = "Lehte ei leitud"
+
+[page_does_not_exist]
+other = "Vabandust, seda lehte pole olemas!"
+
+[head_back]
+other = "Sa võid pöörduda tagasi <a href=\"{{ . }}\">alguslehele</a>."
+
+[comments]
+other = "Vastused"
+
+[send]
+other = "Saada"
+
+[read_more]
+other = "Loe veel"
+
+[name]
+other = "Nimi"
+
+[email]
+other = "Email"
+
+[message]
+other = "Message"
