@@ -27,10 +27,26 @@
   text-align: center;
 }
 
-.sidebar .logo-title .title a {
+ .theme--dark .sidebar__introduction {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.theme--dark .sidebar a {
   color: rgba(0, 0, 0, 0.7);
+}
+
+.theme--dark .sidebar p {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.theme--dark .sidebar__list {
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .sidebar .social-links a {
   color: rgba(0, 0, 0, 0.7);
+}
+
+.footer__item {
+  color: rgba(255, 255, 255, 0.7);
 }
