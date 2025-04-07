@@ -1,0 +1,36 @@
+.sidebar {
+  background-image: url("/blog/cash-macanaya-zgMZo1Bkzg0-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.logo-title {
+  background: rgba(225, 225, 225, 0.7);
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.sidebar__introduction {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 0.5em;
+}
+
+.sidebar__introduction-description p {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar__list {
+  background: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  padding-top: 0.5em;
+  padding-bottom: 1.2em;
+  text-align: center;
+}
+
+.sidebar .logo-title .title a {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.sidebar .social-links a {
+  color: rgba(0, 0, 0, 0.7);
+}
